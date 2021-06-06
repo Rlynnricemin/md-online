@@ -1,0 +1,26 @@
+{
+  "name": "md-online",
+  "version": "0.0.1",
+  "description": "A Helper for Markdown Review",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "start": "webpack serve --mode development --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "md-online": "bin/md-online.js"
+  },
+  "author": "lmf",
+  "license": "ISC",
+  "dependencies": {
+    "highlight.js": "^11.0.1",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "markdown-loader": "^6.0.0",
+    "marked": "^2.0.7",
+    "uuid": "^8.3.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
