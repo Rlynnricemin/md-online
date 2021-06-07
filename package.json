@@ -1,7 +1,11 @@
 {
   "name": "md-online",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A Helper for Markdown Review",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rlynnricemin/md-online.git"
+  },
   "scripts": {
     "dev": "webpack --mode development",
     "start": "webpack serve --mode development --open",
@@ -10,9 +14,15 @@
   "bin": {
     "md-online": "bin/md-online.js"
   },
+  "keywords": ["md", "markdown", "cli", "generator"],
   "author": "lmf",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
     "highlight.js": "^11.0.1",
     "html-loader": "^2.1.2",
     "html-webpack-plugin": "^5.3.1",
